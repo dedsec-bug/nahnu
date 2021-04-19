@@ -5,7 +5,7 @@ cd ~/tools
 
 echo -e "\e[1;33m[+] Installing naabu\e[0m" 
 git clone https://github.com/projectdiscovery/naabu.git
-cd naabu/v2/cmd/naabu
+cd naabu/v2/cmd/
 go build
 sudo cp naabu /usr/local/bin
 naabu -version
@@ -13,7 +13,7 @@ cd ~/tools
 
 echo -e "\e[1;33m[+] Installing HTTPX\e[0m"
 git clone https://github.com/projectdiscovery/httpx.git
-cd httpx/cmd/httpx
+cd httpx/cmd
 go build
 sudo cp httpx /usr/local/bin
 httpx -version

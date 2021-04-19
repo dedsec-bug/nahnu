@@ -3,7 +3,7 @@
 Reference for this project 
 https://blog.cobalt.io/pentest-workflow-leveraging-community-powered-tools-979b54df5e52
 
-I have created this automated script using bash script and automated 3 tools to work together:
+I have created this automated script using bash script and automated 4 tools to work together:
 
 1. Naabu : https://github.com/projectdiscovery/naabu
 2. HTTPX : https://github.com/projectdiscovery/httpx
